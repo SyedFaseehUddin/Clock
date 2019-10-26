@@ -47,7 +47,7 @@
   width: 0.5%;
   height: 30%;
   z-index: 2;
-  background-color: red;
+  background-color: #e74c3c;
 }
 .clock-content .indicator.minutes-indicator {
   width: 0.6%;
@@ -64,7 +64,6 @@
 .clock-content .indicator-cover {
   position: absolute;
   bottom: 48.5%;
-  /*(50% - (3% /2)) */
   border-radius: 50%;
   width: 3%;
   height: 3%;
@@ -124,6 +123,7 @@
   background-color: #001F61;
   border-radius: 20px 20px 0 0;
   font-size: 12px;
+	letter-spacing: 1px;
 	color: #fff;
   padding: 80px;
   padding-bottom: 10px;

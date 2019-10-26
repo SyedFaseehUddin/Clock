@@ -67,7 +67,7 @@ class App extends Component {
               <div className="footer"> 
                 <br></br>
             Made with <span style={{color: "#e74c3c"}}>&#9829;</span> in India <br></br>
-            <span>Inspired by <a href="https://dribbble.com/shots/5958443-Alarm-clock">Renat Muratshin</a></span>
+            <span>Inspired by <a href="https://dribbble.com/shots/5958443-Alarm-clock" target="_blank">Renat Muratshin</a></span>
             </div>
           </div>
           
