@@ -53,9 +53,9 @@ class App extends Component {
       <div>
         <div className="clock-container" >
           <div className="clock-content">
-            <div style={divStyleHours} className= "indicator hours-indicator {this.state.date.getHours() === 0 ? '' : transition-effect}" />
-            <div style={divStyleMinutes} className= "indicator minutes-indicator {this.state.date.getMinutes() === 0 ? '' : transition-effect}" />
-            <div style={divStyleSeconds} className= "indicator seconds-indicator {this.state.date.getSeconds() === 0 ? '' : transition-effect }" />
+            <div style={divStyleHours} className= "indicator hours-indicator  transition-effect" />
+            <div style={divStyleMinutes} className= "indicator minutes-indicator transition-effect" />
+            <div style={divStyleSeconds} className= "indicator seconds-indicator transition-effect" />
             <div className= "indicator-cover" ></div>
           </div>
          </div>
